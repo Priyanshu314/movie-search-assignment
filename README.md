@@ -33,12 +33,6 @@ The goal is to build a semantic search engine that retrieves the most relevant m
    ```bash
    pip install -r requirements.txt
    ```
-
-4. Run the Jupyter notebook:
-   ```bash
-   jupyter notebook movie_search_solution.ipynb
-   ```
-
 ---
 
 ## 🧪 Testing
@@ -85,23 +79,9 @@ Top 3 results:
 
 ---
 
-## 📂 Repository Structure
-```
-movie-search-assignment/
-├── tests/test_movie_search.py   # Unit tests
-├── movie_search.py              # Main Python module
-├── movie_search_solution.ipynb  # Jupyter notebook
-├── movies.csv                   # Dataset
-├── requirements.txt             # Dependencies
-├── README.md                    # Documentation
-└── .gitignore                   # Ignore unnecessary files
-```
-
----
 
 ## ✅ Notes
 - All unit tests pass locally.  
 - Built using Python 3.9+, Jupyter, and SentenceTransformers.  
-- Developed as part of **AI Systems Development (IIIT Naya Raipur)**.
 
 ---
